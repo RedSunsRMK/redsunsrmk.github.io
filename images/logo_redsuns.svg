@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1920" height="1080" viewBox="0 0 1920 1080">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="1000" height="200" viewBox="0 0 1000 200">
   <defs>
     <style>
       .cls-1, .cls-2 {
-        font-size: 266.667px;
+        font-size: 160px;
       }
 
       .cls-2 {
@@ -11,5 +11,5 @@
       }
     </style>
   </defs>
-  <text x="201" y="397" class="cls-1"><tspan class="cls-2">REDSUNS</tspan></text>
+  <text x="50" y="21" class="cls-1"><tspan class="cls-2">REDSUNS</tspan></text>
 </svg>
