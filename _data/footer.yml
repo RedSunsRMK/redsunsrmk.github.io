@@ -37,3 +37,7 @@
     link: /feed.xml
     social_icon: RSS
     new_window: false
+  - name: Instagram
+    link: https://www.instagram.com/redsunsrmk/
+    new_window: true
+    social_icon: Instagram
