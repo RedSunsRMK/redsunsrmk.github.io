@@ -1,6 +1,6 @@
 - links:
-  - name: Pricing
-    link: /pricing/
+  - name: Projects
+    link: /projects/
   - name: Blog
     link: /blog/
   - name: About
@@ -8,15 +8,6 @@
   - name: Contact
     link: /contact/
 - links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
   - name: Status
     link: /
     new_window: true
