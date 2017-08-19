@@ -8,9 +8,6 @@
   - name: Contact
     link: /contact/
 - links:
-  - name: Status
-    link: /
-    new_window: true
 - links:
   - name: Instagram
     link: https://www.instagram.com/redsunsrmk/
