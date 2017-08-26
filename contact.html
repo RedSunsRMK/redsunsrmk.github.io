@@ -1,17 +1,18 @@
 ---
 title: Contact
 heading: Contact
-description: The Contact form is not working right now.
+description: Ask me anything.
 ---
 
 <div class="contact-box">
-	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="redsunsrmk@gmail.com" />
-		<input type="text" name="_gotcha" style="display: none;">
+	<form action="https://formspree.io/redsunsrmk@email.com" method="post" class="contact-form">
+		<input type="hidden" name="_next" value="https://redsunsrmk.github.io/contact-success.html" />
+		<input type="hidden" name="_format" value="plain" />
+		<input type="text" name="_gotcha" style="display:none" />
 		
 		<input type="text" name="name" id="name" placeholder="Name" />
 		<br>
-		<input type="email" name="email" id="email" placeholder="Email" required />
+		<input type="email" name="_repyto" id="email" placeholder="Email" required />
 		<br>
 		<textarea name="message" id="message" placeholder="Message"></textarea>
 
