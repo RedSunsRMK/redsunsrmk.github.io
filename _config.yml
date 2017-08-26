@@ -53,11 +53,6 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
- -
-    scope:
-      path: "contact-success.html"
-    values:
-      full_width: true
 
 jekyll-archives:
   enabled:
