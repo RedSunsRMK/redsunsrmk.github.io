@@ -1,7 +1,7 @@
 ---
 name: RedSuns
 position: Keyboard Enthusiast
-image_path: https://source.unsplash.com/collection/139386/601x601?a=.png
+image_path: https://redsunsrmk.github.io/images/RedSuns_avatar2.png
 twitter: CloudCannonApp
-blurb: RedSuns is a keyboard enthusiast.
+blurb: RedSuns
 ---
