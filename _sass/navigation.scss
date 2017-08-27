@@ -20,6 +20,7 @@ nav {
 	font-size: .8em;
 	width: 100%;
 	position: fixed;
+	z-index: 100;
 
 	@media #{$mid-point} {
 		text-align: right;
