@@ -1,7 +1,7 @@
 $brand-color: #64242E;
 $secondary-brand-color: #26262A;
-$secondary-two-brand-color: #26262A;
-$middle-gradient-color: mix($secondary-brand-color, $secondary-two-brand-color, 100%);
+$third-brand-color: #26262A;
+$middle-gradient-color: mix($secondary-brand-color, $third-brand-color, 95%);
 $name-color: #FFA715;
 
 // Breakpoints
