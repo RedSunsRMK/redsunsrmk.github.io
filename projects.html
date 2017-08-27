@@ -13,9 +13,6 @@ description: Here is a collection of my mech keys projects.
 	<div class="container">
 	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_projects/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
 		<ul class="image-grid">
-			
-    			
-			{% for project in site.projects %}
 			{% assign sorted = (site.collection_projects| sort: 'date') | reverse %}
 			{% for project in sorted %}
 				<li>
@@ -27,7 +24,6 @@ description: Here is a collection of my mech keys projects.
 						</div>
 					</a>
 				</li>
-			{% endfor %}
 			{% endfor %}
 			<li class="filler"></li>
 			<li class="filler"></li>
