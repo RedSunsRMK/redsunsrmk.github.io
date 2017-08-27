@@ -19,7 +19,7 @@ description: Here is a collection of my mech keys projects.
 			{% for project in site.projects %}
 				<li>
 					<a href="{{ site.baseurl }}{{ project.url }}">
-						<img src="{% include relative-src.html src=client.image_path %}" alt="{{ person.name }}">
+						<img src="{% include relative-src.html src=project.image_path %}" alt="{{ person.name }}">
 						<div class="details">
 							<div class="name">{{ project.name }}</div>
 							<div class="position">{{ project.subtitle }}</div>
