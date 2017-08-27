@@ -73,14 +73,14 @@ nav {
 			border-radius: 5px;
 
 			&:hover {
-				background: #fff;
+				background: #000;
 				color: $brand-color;
 			}
 		}
 	}
 
 	a.active {
-		color: #fff;
+		color: #000;
 	}
 
 }
