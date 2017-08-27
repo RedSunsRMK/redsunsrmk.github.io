@@ -255,12 +255,3 @@ blockquote:before {
 	padding: 0;
 	text-align: center;
 }
-
-.patterned {
-	background: #222 url($pattern);
-
-	&,
-	p {
-		color: #fefefe;
-	}
-}
