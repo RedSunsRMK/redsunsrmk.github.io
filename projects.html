@@ -4,6 +4,10 @@ heading: Projects
 description: Here is a list of my mech keys projects.
 ---
 
-</p><div class="text editable">
-<p><strong>></strong> GMK Red Samurai Custom Keycap Set
+<div class="text editable">
+{% for project in site.projects %}
+  <div class="project">
+    <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+  </div>
+{% endfor %}
 </div>
