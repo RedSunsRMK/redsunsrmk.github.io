@@ -1,11 +1,11 @@
 - selector: example_slider
   captions: true
   images:
-    - src: /img/1.jpg
+    - src: /images/redsamurai/red-samurai.png
       alt: image one
-    - src: /img/2.jpg
+    - src: /images/redsamurai/red-samurai-nova.png
       alt: image two
-    - src: /img/3.jpg
+    - src: /images/redsamurai/red-samurai-no1.png
       alt: image three
   settings:
     height: "'auto'"
