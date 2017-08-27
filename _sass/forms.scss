@@ -4,7 +4,6 @@
 	padding: 10px 30px;
 	background: #d24663;
 	border-radius: 70px;
-	border: 1px solid rgba(255,255,255,.5);
 	transition: .2s ease-in-out;
 }
 
@@ -12,7 +11,7 @@
 	border: 1px solid #fff;
 	background: rgba(210,70,99,0.87);
 	cursor: pointer;
-	box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+	box-shadow: 5px 5px 5px rgba(0,0,0,.15);
 }
 
 .button.alt a {
