@@ -3,13 +3,14 @@
   captions: true
   images:
     - src: /images/redsamurai/red-samurai.png
-      title: image one
+      title: image one one
       alt: This slider has caption titles
     - src: /images/redsamurai/red-samurai-nova.png
-      title: This slider uses the fade effect
+      title: image two two
       alt: image two
     - src: /images/redsamurai/red-samurai-no1.png
-      data-src-2x: /images/redsamurai/red-samurai-no1.png
+      title: image three three
+      alt: image three
   settings:
     height: "'auto'"
     effect: "'fade'"
