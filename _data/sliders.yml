@@ -19,3 +19,19 @@
     keyboardNav:
     previousNavSelector:
     nextNavSelector:
+    
+- selector: slider2
+  bullets: true
+  captions: true
+  images:
+    - src: /images/redsamurai/red-samurai.png
+      title: image one 2
+      alt: This slider has caption titles
+    - data-src: /images/redsamurai/red-samurai-nova.png
+      title: image two 2
+      alt: Instead of the default slide effect
+    - data-src: /images/redsamurai/red-samurai-no1.png
+      data-src-2x: /images/redsamurai/red-samurai-no1.png
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
