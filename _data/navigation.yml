@@ -1,24 +1,24 @@
 - name: >
-Projects
-プロジェクト
+  Projects
+  プロジェクト
   link: /projects/
   new_window: false
   highlight: false
 - name: >
-Blog
-ブログ
+  Blog
+  ブログ
   link: /blog/
   new_window: false
   highlight: false
 - name: > 
-About
-約
+  About
+  約
   link: /about/
   new_window: false
   highlight: false
 - name: >
-Contact
-接触
+  Contact
+  接触
   link: /contact/
   new_window: false
   highlight: false
