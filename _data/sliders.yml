@@ -8,6 +8,14 @@
       alt: image two
     - data-src: /images/redsamurai/red-samurai-no1.png
       alt: image three
-  settings:
-    height: "'auto'"
-    effect: "'fade'"
+    settings:
+    height: 400
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
