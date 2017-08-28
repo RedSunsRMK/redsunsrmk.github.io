@@ -8,7 +8,7 @@
 }
 
 .button a:hover, input[type=submit]:hover {
-	background: rgba(12,155,255,0.87);
+	background: rgba(255,255,255,0.87);
 	cursor: pointer;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.15);
 }
@@ -24,8 +24,8 @@
 
 .button.alt a:hover {
 	background: #0c9bff;
-	color: #fff;
-	border: 2px solid rgba(12,155,255,1.0);
+	color: #000;
+	border: 2px solid rgba(255,255,255,1.0);
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
