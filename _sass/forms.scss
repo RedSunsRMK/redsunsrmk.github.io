@@ -2,13 +2,13 @@
 	color: #fff;
 	text-decoration: none;
 	padding: 10px 30px;
-	background: #d24663;
-	border-radius: 70px;
+	background: #212121;
+	border-radius: 4px;
 	transition: .2s ease-in-out;
 }
 
 .button a:hover, input[type=submit]:hover {
-	background: rgba(210,70,99,0.87);
+	background: rgba(210,70,99,1.0);
 	cursor: pointer;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.15);
 }
