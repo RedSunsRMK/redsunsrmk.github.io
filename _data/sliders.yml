@@ -1,4 +1,4 @@
-- selector: slider2
+- selector: example_slider
   bullets: true
   captions: true
   images:
