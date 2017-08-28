@@ -185,6 +185,7 @@ blockquote:before {
 	flex-flow: wrap;
 	text-align: center;
 	margin: 0 -20px;
+	position: absolute;
 
 	li {
 		padding: 0;
@@ -231,7 +232,6 @@ blockquote:before {
 	.details {
 		line-height: 1.2;
 		position: absolute;
-		top: 0;
 		bottom: 0;
 		left: 0;
 		right: 0;
