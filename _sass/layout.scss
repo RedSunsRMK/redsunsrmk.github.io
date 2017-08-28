@@ -244,15 +244,15 @@ blockquote:before {
 		font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif !important;
 		font-weight: 700;
 		
-		@media screen and (max-width: 40em) {
+		@media only screen and (max-width: 40em) {
 		font-size: 20.5px;
 		}
 
-		@media screen and (max-width: 56em) {
+		@media only screen and (max-width: 56em) {
  		font-size: 21.85px;
 		}
 
-		@media screen and (max-width: 64em) {
+		@media only screen and (max-width: 64em) {
 		font-size: 23.2px;
 		}
 	}
