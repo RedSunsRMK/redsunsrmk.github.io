@@ -249,6 +249,28 @@ blockquote:before {
 		margin-top: 5px;
 		color: #484846;
 	}
+	
+	.detailstwo {
+		line-height: 1.2;
+		position: absolute;
+		bottom:0;
+		left: 0;
+		right 0;
+		background: rgba(255, 255, 255, 1.0);
+		padding: 20px;
+	}
+	
+	.projectdate {
+		font-size: 1em;
+		margin-top: 5px;
+	}
+	
+	.readmore {
+		font-size: 1em;
+		margin-top: 5px;
+		text-align: right;
+	}
+
 
 	.filler {
 		border: 0;
