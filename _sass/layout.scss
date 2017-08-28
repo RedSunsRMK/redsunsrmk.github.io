@@ -239,11 +239,13 @@ blockquote:before {
 
 	.name {
 		font-size: 1.3rem;
+		font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif;
 		color: #2b2725;
 		text-decoration: none;
 	}
 
 	.position {
+		font-family: inherit;
 		margin-top: 5px;
 		color: #484846;
 	}
