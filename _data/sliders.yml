@@ -4,7 +4,7 @@
   images:
     - src: /images/redsamurai/red-samurai.png
       alt: image one
-    - data-src: /images/redsamurai/red-samurai-nova.png
+    - src: /images/redsamurai/red-samurai-nova.png
       alt: image two
     - src: /images/redsamurai/red-samurai-no1.png
       alt: image three
