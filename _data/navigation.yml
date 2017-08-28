@@ -1,22 +1,22 @@
-- name: >
+- name: |
   Projects
   プロジェクト
   link: /projects/
   new_window: false
   highlight: false
-- name: >
+- name: |
   Blog
   ブログ
   link: /blog/
   new_window: false
   highlight: false
-- name: > 
+- name: | 
   About
   約
   link: /about/
   new_window: false
   highlight: false
-- name: >
+- name: |
   Contact
   接触
   link: /contact/
