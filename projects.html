@@ -25,7 +25,8 @@ description:
 						</a>
 						<div class="position">{{ project.description }}</div>
 					<div class="detailstwo">
-						<div class="readmore">{{ project.date | date: "%b %-d, %Y"}}<a href="{{ site.baseurl }}{{ project.url }}">READ MORE</a></div>
+						{{ project.date | date: "%b %-d, %Y"}}
+						<div class="readmore"><a href="{{ site.baseurl }}{{ project.url }}">READ MORE</a></div>
 					</div>
 					</div>
 					
