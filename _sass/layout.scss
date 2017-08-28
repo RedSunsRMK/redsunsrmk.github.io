@@ -314,8 +314,10 @@ blockquote:before {
 		}
 	}
 	
-	.readmore a:link{
-    	color: #484846;
+	a.readmore:link { color:#484846; }
+	a.readmore:visited { color: #484846; }
+	a.readmore:hover { color: #484846; }
+	a.readmore:active { color: #484846; }
 	}
 
 	.filler {
