@@ -2,13 +2,13 @@
 	color: #fff;
 	text-decoration: none;
 	padding: 10px 30px;
-	background: #212121;
+	background: #0c9bff;
 	border-radius: 4px;
 	transition: .2s ease-in-out;
 }
 
 .button a:hover, input[type=submit]:hover {
-	background: rgba(210,70,99,1.0);
+	background: rgba(12,155,255,0.87);
 	cursor: pointer;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.15);
 }
@@ -23,9 +23,9 @@
 }
 
 .button.alt a:hover {
-	background: #f79a1f;
+	background: #0c9bff;
 	color: #212121;
-	border: 2px solid rgba(247,154,31,1.0);
+	border: 2px solid rgba(12,155,255,1.0);
 }
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
