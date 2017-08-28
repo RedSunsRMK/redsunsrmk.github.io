@@ -262,6 +262,18 @@ blockquote:before {
 		font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif !important;
 		margin-top: 5px;
 		color: #484846;
+		
+		@media only screen and (max-width: 40em) {
+		font-size: 17px;
+		}
+
+		@media only screen and (max-width: 56em) {
+ 		font-size: 17.3px;
+		}
+
+		@media only screen and (max-width: 64em) {
+		font-size: 17.6px;
+		}
 	}
 	
 	
