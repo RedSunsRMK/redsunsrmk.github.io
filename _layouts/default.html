@@ -6,7 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon.png">
-	{% include slider_scripts.html %}
 	{% seo %}
 	{% feed_meta %}
 	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
@@ -54,6 +53,5 @@
 				return false;
 			};
 		</script>
-	{% include slider_scripts.html %}
 	</body>
 </html>
