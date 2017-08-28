@@ -10,15 +10,6 @@
       alt: image three
    settings:
     height: 400
-    initialHeight:
-    maxHeight:
-    interval:
-    transitionDuration:
-    effect:
-    disableNav:
-    keyboardNav:
-    previousNavSelector:
-    nextNavSelector:
     
 - selector: slider2
   bullets: true
