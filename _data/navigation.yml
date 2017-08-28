@@ -1,6 +1,4 @@
-- name: |
-       Projects 
-       | プロジェクト
+- name: Projects 
   link: /projects/
   new_window: false
   highlight: false
