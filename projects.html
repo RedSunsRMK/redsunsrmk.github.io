@@ -18,11 +18,13 @@ description:
 				<li>
 					<a href="{{ site.baseurl }}{{ project.url }}">
 						<img src="{% include relative-src.html src=project.image_path %}" alt="{{ person.name }}">
-						<div class="details">
-							<div class="name">{{ project.title }}</div>
-							<div class="position">{{ project.description }}</div>
-						</div>
 					</a>
+					<div class="details">
+						<a href="{{ site.baseurl }}{{ project.url }}">
+							<div class="name">{{ project.title }}</div>
+						</a>
+						<div class="position">{{ project.description }}</div>
+					</div>
 				</li>
 			{% endfor %}
 			<li class="filler"></li>
