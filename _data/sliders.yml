@@ -3,13 +3,16 @@
   captions: true
   images:
     - src: /images/redsamurai/red-samurai.png
-      title: image one 2
+      title: Balloons!
       alt: This slider has caption titles
     - data-src: /images/redsamurai/red-samurai-nova.png
-      title: image two 2
+      title: This slider uses the fade effect
       alt: Instead of the default slide effect
     - data-src: /images/redsamurai/red-samurai-no1.png
       data-src-2x: /images/redsamurai/red-samurai-no1.png
+    - src: /img/4.jpg
+      title: Last image had no caption!
+      alt: Also, this image has no link
   settings:
     height: "'auto'"
     effect: "'fade'"
