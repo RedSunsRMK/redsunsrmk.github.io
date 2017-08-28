@@ -236,6 +236,7 @@ blockquote:before {
 		border-left: 1px solid rgba(0,0,0,0.15);
 		border-right: 1px solid rgba(0,0,0,0.15);
 		border-bottom: 1px solid rgba(0,0,0,0.15);
+		box-shadow: 10px 10px 10px rgba(0,0,0,0.15) !important;
 	}
 
 	.name {
@@ -323,5 +324,4 @@ blockquote:before {
 	margin: 0;
 	padding: 0;
 	text-align: center;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
 }
