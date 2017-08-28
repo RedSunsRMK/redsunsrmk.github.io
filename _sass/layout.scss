@@ -230,9 +230,7 @@ blockquote:before {
 
 	.details {
 		line-height: 1.2;
-		position: absolute;
-		left: 0;
-		right: 0;
+		position: relative;
 		background: rgba(0, 0, 0, 0.5);
 		padding: 20px;
 	}
