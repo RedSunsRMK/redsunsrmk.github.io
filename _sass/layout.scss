@@ -240,10 +240,18 @@ blockquote:before {
 		color: #000;
 		text-decoration: none;
 	}
+	
+	.name a {
+    		text-decoration: none;
+	}
 
 	.position {
 		margin-top: 5px;
 		color: #000;
+	}
+	
+	.position a {
+    		text-decoration: none;
 	}
 
 	.filler {
