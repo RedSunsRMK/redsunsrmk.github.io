@@ -6,16 +6,8 @@
       alt: image one
     - data-src: /images/redsamurai/red-samurai-nova.png
       alt: image two
-    - data-src: /images/redsamurai/red-samurai-no1.png
+    - src: /images/redsamurai/red-samurai-no1.png
       alt: image three
-    settings:
-    height: 400
-    initialHeight:
-    maxHeight:
-    interval:
-    transitionDuration:
-    effect:
-    disableNav:
-    keyboardNav:
-    previousNavSelector:
-    nextNavSelector:
+  settings:
+    height: "'auto'"
+    effect: "'fade'"
