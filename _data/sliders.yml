@@ -8,5 +8,14 @@
       alt: image two
     - src: /images/redsamurai/red-samurai-no1.png
       alt: image three
-  settings:
+   settings:
     height: 400
+    initialHeight:
+    maxHeight:
+    interval:
+    transitionDuration:
+    effect:
+    disableNav:
+    keyboardNav:
+    previousNavSelector:
+    nextNavSelector:
