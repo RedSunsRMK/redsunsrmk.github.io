@@ -1,5 +1,5 @@
 - selector: example_slider
-  bullets: true
+  bullets: false
   captions: true
   images:
     - src: /images/redsamurai/red-samurai.png
