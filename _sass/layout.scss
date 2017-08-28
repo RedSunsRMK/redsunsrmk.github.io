@@ -298,7 +298,6 @@ blockquote:before {
 	
 	.readmore {
 		font-size: 16px;
-		a:color: #484846 !important;
 		font-family: "Titillium Web",arial,sans-serif !important;
 		float: right;
 		
@@ -313,6 +312,10 @@ blockquote:before {
 		@media only screen and (max-width: 64em) {
 		font-size: 17.6px;
 		}
+	}
+	
+	.readmore a:link{
+    	color: #484846;
 	}
 
 	.filler {
