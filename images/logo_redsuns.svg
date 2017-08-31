@@ -6,6 +6,7 @@
       }
 
       .cls-2 {
+        fill: #b22222;
         font-family: "Brooklyn Kid";
       }
     </style>
