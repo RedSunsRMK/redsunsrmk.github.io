@@ -2,14 +2,13 @@
   <defs>
     <style>
       .cls-1, .cls-2 {
-        font-size: 160px;
+        font-size: 120px;
       }
 
       .cls-2 {
-        fill: #b22222;
         font-family: "Brooklyn Kid";
       }
     </style>
   </defs>
-  <text x="50" y="150" class="cls-1"><tspan class="cls-2">REDSUNS</tspan></text>
+  <text x="165" y="150" class="cls-1"><tspan class="cls-2">REDSUNS</tspan></text>
 </svg>
