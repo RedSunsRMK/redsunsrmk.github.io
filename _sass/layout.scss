@@ -243,8 +243,6 @@ blockquote:before {
 
 	.name {
 		font-size: 21px;
-		font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif !important;
-		font-weight: 700;
 		
 		@media only screen and (max-width: 40em) {
 		font-size: 20.5px;
@@ -261,7 +259,6 @@ blockquote:before {
 
 	.position {
 		font-size: 17px;
-		font-family: lora,Georgia,Cambria,"Times New Roman",Times,serif !important;
 		margin-top: 5px;
 		color: #484846;
 		
