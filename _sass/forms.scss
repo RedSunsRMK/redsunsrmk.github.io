@@ -27,6 +27,21 @@
 	border: 2px solid rgba(230,65,32,1.0);
 }
 
+.button.links a {
+	background: #D24663;
+	border-radius: 4px;
+	border: 2px solid rgba(255,255,255,1.0);
+	padding: 16px 50px;
+	border-radius: 70px;
+}
+
+.button.links a:hover {
+	background: #D24663;
+	color: #fff;
+	border: 2px solid rgba(210,70,99,.15);
+	border-radius: 70px;
+}
+
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
 input[type=submit] {
