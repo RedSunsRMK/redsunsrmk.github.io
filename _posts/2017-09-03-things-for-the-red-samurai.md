@@ -7,4 +7,4 @@ author_staff_member: redsuns
 ---
 <p>What might go well with this keycap set?</p>
 
-<a href="https://docs.google.com/spreadsheets/d/1UC0bg5Uiq7f1z5brNZsXr9EnVoeY19NEzc01nV8RM6k/edit?usp=sharing>/" target="_blank">Primary Spreadsheet</a>
+<strong>></strong> <a href="https://docs.google.com/spreadsheets/d/1UC0bg5Uiq7f1z5brNZsXr9EnVoeY19NEzc01nV8RM6k/edit?usp=sharing>/" target="_blank">Primary Spreadsheet</a>
