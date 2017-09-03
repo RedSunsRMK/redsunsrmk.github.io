@@ -30,7 +30,8 @@ What are some keyboards or cases that would go well with the GMK Red Samurai Key
     <td class="tg-yw4l">Creator/Seller(Inanis) appears to be inactive since 2015.</td>
   </tr>
 </table>
-
+<br>
+<br>
 <table class="tg">
   <tr>
     <th class="tg-yw4l">Wrist Rest</th>
