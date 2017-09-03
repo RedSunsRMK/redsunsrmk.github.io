@@ -1,6 +1,6 @@
 ---
 date: 2017-09-03
-title: Keyboards or cases for the Red Samurai
+title: Things for the Red Samurai
 categories:
   - general
 author_staff_member: redsuns
