@@ -62,12 +62,6 @@ nav {
 		}
 	}
 
-	a:hover {
-
-		border-bottom: 0px solid rgba(178,34,34,1.0);
-		color: rgba(178,34,34,1.0);
-	}
-
 	@media #{$mid-point} {
 		a.highlight {
 			border: 1px #ccc solid;
