@@ -62,7 +62,7 @@ nav {
 		}
 	}
 
-	a:hover { color: rgba(17,17,17,1.0); }
+	a:hover { color: rgba(17,17,17,1.0) !important; }
 
 	@media #{$mid-point} {
 		a.highlight {
