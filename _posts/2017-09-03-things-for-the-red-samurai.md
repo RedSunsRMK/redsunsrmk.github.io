@@ -5,7 +5,6 @@ categories:
   - general
 author_staff_member: redsuns
 ---
-
-<p>What are some things that would go well with the GMK Red Samurai Keycap Set?</p>
+<p>What might go well with this keycap set?</p>
 
 <a href="https://docs.google.com/spreadsheets/d/1UC0bg5Uiq7f1z5brNZsXr9EnVoeY19NEzc01nV8RM6k/edit?usp=sharing>/" target="_blank">Primary SpreadSheet</a>
