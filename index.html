@@ -123,6 +123,7 @@ support: [jquery, gallery]
 				<h2><strong>Render Gallery</strong></h2>
 				<p>Renders</p>
 				{% include gallery-layout.html gallery=site.data.galleries.red-samurai %}
+				 <a href="{{ site.url }}{{ site.baseurl }}/images/{{ gallery.directory }}.html">
 				 <img alt="{{ gallery.title }}" src="{{ site.url }}{{ site.baseurl }}/images/{% if gallery.picture_path %}{{ gallery.picture_path }}{% else %}{{ gallery.directory }}{% endif %}/{{ gallery.preview.thumbnail }}" />
 		 	</div>
 	</section>
