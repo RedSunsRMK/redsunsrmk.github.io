@@ -64,8 +64,8 @@ nav {
 
 	a:hover {
 
-		border-bottom: 3px solid rgba(0,0,0,1.0);
-		color: rgba(0,0,0,.8);
+		border-bottom: 3px solid rgba(110,110,110,1.0);
+		color: rgba(17,17,17,1.0);
 	}
 
 	@media #{$mid-point} {
@@ -74,14 +74,15 @@ nav {
 			border-radius: 5px;
 
 			&:hover {
-				background: #000;
+				background: #111111;
 				color: $brand-color;
 			}
 		}
 	}
 
 	a.active {
-		color: #b22222;
+		color: #111111;
+		border-bottom: 3px solid rgba(110,110,110,1.0);
 	}
 
 }
