@@ -73,39 +73,17 @@ nav {
 			}
 		}
 	}
+	
+	a.hover {
+		color: #111111;
+		border: border-bottom: 2px solid rgba(110,110,110,1.0);
+	}
 
 	a.active {
 		color: #000;
 	}
 	
-.effect {
-    position: absolute;
-    left: 18%;
-    transition: 0.4s ease-in-out;
-}
 	
-nav a:nth-child(1):target ~ .effect {
-    left: 18%;
-    /* the middle of the first <a> */
-}
-nav a:nth-child(2):target~ .effect {
-    left: 43.5%;
-    /* the middle of the second <a> */
-}
-nav a:nth-child(3):target ~ .effect {
-    left: 68%;
-    /* the middle of the third <a> */
-}
-nav a:nth-child(4):target ~ .effect {
-    left: 93.5%;
-    /* the middle of the forth <a> */
-}
-.ph-line-nav .effect {
-    width: 55px;
-    height: 2px;
-    bottom: 5px;
-    background: #00ABE8;
-    margin-left:-75px;
-}
+	
 
 }
