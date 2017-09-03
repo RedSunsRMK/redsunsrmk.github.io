@@ -79,10 +79,16 @@ nav {
 			}
 		}
 	}
+	
+	a.link {
+		color: #6e6e6e;
+	}
 
 	a.active {
 		color: #111111;
 		border-bottom: 3px solid rgba(110,110,110,1.0);
 	}
+	
+
 
 }
