@@ -5,7 +5,7 @@
 		<div class="details">
 			<a href="{% include relative-src.html src=post.url %}"><div class="name">{{ post.title }}</div></a>
 			<div class="position">{{ post.excerpt }}</div>
-			<br>
+			<br><br>
 			<div class="projectdate">
 			{{ post.date | date: "%b %-d, %Y" }}
 			<span class="readmore" style="float:right;"><a href="{% include relative-src.html src=post.url %}">READ MORE</a></span>
