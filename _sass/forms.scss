@@ -3,13 +3,13 @@
 	text-decoration: none;
 	font-weight: 600;
 	padding: 10px 30px;
-	background: #000;
+	background: #D24663;
 	border-radius: 4px;
 	transition: .2s ease-in-out;
 }
 
 .button a:hover, input[type=submit]:hover {
-	background: rgba(0,0,0,0.87);
+	background: rgba(210,70,99,.87);
 	cursor: pointer;
 	box-shadow: 5px 5px 5px rgba(0,0,0,.15);
 }
@@ -28,6 +28,7 @@
 }
 
 .button.links a {
+	color: #fff;
 	font-size: 14px;
 	font-weight: normal;
 	background: #D24663;
@@ -37,9 +38,7 @@
 }
 
 .button.links a:hover {
-	background: #D24663;
-	color: #fff;
-	border: 0px solid rgba(210,70,99,.15);
+	background: rgba(210,70,99,.87);
 	box-shadow: 5px 5px 5px rgba(0,0,0,.15);
 }
 
