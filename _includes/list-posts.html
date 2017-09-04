@@ -3,9 +3,9 @@
 		
 		{% include post-title.html post=post %}
 		<div class="post-content">
-			<div class="name"><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></div>
+			<a href="{% include relative-src.html src=post.url %}"><div class="name">{{ post.title }}</div></a>
 			<div class="position">{{ post.excerpt }}</div>
-			
+			<br>
 			<div class="projectdate">
 			{{ post.date | date: "%b %-d, %Y" }}
 			<span class="readmore" style="float:right;"><a href="{% include relative-src.html src=post.url %}">READ MORE</a></span>
