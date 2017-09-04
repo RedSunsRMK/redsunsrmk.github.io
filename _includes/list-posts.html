@@ -6,7 +6,7 @@
 			{{ post.excerpt }}
 			
 			<div class="projectdate">
-			{% include.post.date | date: "%b %-d, %Y" %}
+			{{ include.post.date | date: "%b %-d, %Y" }}
 			<span class="readmore" style="float:right;"><a href="{% include relative-src.html src=post.url %}">READ MORE</a></span>
 			</div>
 		</div>
