@@ -1,5 +1,5 @@
 {% for post in include.posts %}
-		<li class="blog-postsc">
+		<div class="blog-postsc">
 		<a href="{% include relative-src.html src=post.url %}"><div class="name">{{ post.title }}</div></a>
 		{% include post-title.html post=post %}
 		<div class="post-content">
@@ -9,6 +9,6 @@
 			<span class="readmore" style="float:right;"><a href="{% include relative-src.html src=post.url %}">Read More</a></span>
 			</div>
 		</div>
-		</li>
+		</div>
 {% endfor %}
 
