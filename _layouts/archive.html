@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <div class="text-container">
@@ -17,7 +17,7 @@ layout: default
 		<span class="blog-filter cross"><a href="{{ site.baseurl }}/blog/">{{ page.title | capitalize }}</a></span>
 	</div>
 
-	<div class="container">
+	<ul class="blog-posts">
 		{% include list-posts.html posts=page.posts %}
-	</div>
+	</ul>
 </div>
