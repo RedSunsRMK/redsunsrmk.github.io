@@ -39,7 +39,8 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "default"
+      layout: "post"
+      full_width: false
   -
     scope:
       path: ""
