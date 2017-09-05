@@ -1,11 +1,24 @@
-{% for post in include.posts %}
-	<li class="blog-postsc">
-		<h3><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h3>
-		{% include post-title.html post=post %}
-		<div class="post-content">
-			{{ post.excerpt }}
-			<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-			<div class="button" style="float:right;"><a href="{% include relative-src.html src=post.url %}">READ MORE</a></div>
-		</div>
-	</li>
-{% endfor %}
+<div class="container">
+	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_projects/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
+		<ul class="image-grid">
+			{% assign sorted = (site.projects | sort: 'date' %}
+			{% for post in sorted %}
+				<li>
+				
+					<div class="details">
+						<a href="{{ site.baseurl }}{{ post.url }}"><div class="name">{{ post.title }}</div></a>
+						<div class="position">{{ post.description }}</div>
+						<br><br>
+						<div class="projectdate">
+						{{ post.date | date: "%b %-d, %Y"}}
+						<span class="readmore" style="float:right;"><a href="{{ site.baseurl }}{{ post.url }}">READ MORE</a></span>
+						</div>
+					</div>
+					
+					
+				</li>
+			{% endfor %}
+			<li class="filler"></li>
+			<li class="filler"></li>
+		</ul>
+	</div>
