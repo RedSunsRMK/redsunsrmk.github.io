@@ -4,8 +4,8 @@
 			{% assign sorted = (site.posts | sort: 'date' %}
 			{% for post in sorted %}
 				<li>
-				<a href="{{ site.baseurl }}{{ project.url }}">
-						<img src="{% include relative-src.html src=project.image_path %}" alt="{{ person.name }}">
+				<a href="{{ site.baseurl }}{{ post.url }}">
+						<img src="{% include relative-src.html src=posts.image_path %}" alt="{{ person.name }}">
 					</a>
 					<div class="details">
 						<a href="{{ site.baseurl }}{{ post.url }}"><div class="name">{{ post.title }}</div></a>
