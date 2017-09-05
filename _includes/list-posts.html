@@ -5,7 +5,7 @@
 			{% for post in sorted %}
 				<li>
 				<a href="{{ site.baseurl }}{{ post.url }}">
-						<img src="{% include relative-src.html src=posts.image_path %}" alt="{{ person.name }}">
+						<img src="{% include relative-src.html src=post.image_path %}" alt="{{ person.name }}">
 					</a>
 					<div class="details">
 						<a href="{{ site.baseurl }}{{ post.url }}"><div class="name">{{ post.title }}</div></a>
