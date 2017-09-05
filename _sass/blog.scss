@@ -105,11 +105,11 @@
 .blog-filter {
 	text-align: center;
 	a {
-    background: #eee;
+    background: #444;
     padding: 3px 5px;
     font-size: .9em;
-    border-radius: 5px;
-    color: #888;
+    border-radius: 0px;
+    color: #fff;
 		transition: .2s ease-in-out;
 
 		&:hover {
