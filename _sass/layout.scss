@@ -279,10 +279,10 @@ blockquote:before {
 	
 	
 	.projectdate {
-		font-size: 16px;
-		font-weight: normal;
-		color: #484846;
-		text-align: left;
+		font-size: 16px !important;
+		font-weight: normal !important;
+		color: #484846 !important;
+		text-align: left !important;
 		
 		@media only screen and (max-width: 40em) {
 		font-size: 17px;
@@ -298,9 +298,9 @@ blockquote:before {
 	}
 	
 	.readmore {
-		font-size: 16px;
-		font-weight: normal;
-		float: right;
+		font-size: 16px !important;
+		font-weight: normal !important;
+		float: right !important;
 		
 		@media only screen and (max-width: 40em) {
 		font-size: 17px;
