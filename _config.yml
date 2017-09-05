@@ -40,7 +40,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      full_width: false
   -
     scope:
       path: ""
