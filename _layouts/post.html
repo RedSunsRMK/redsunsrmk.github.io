@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 <div class="blog-post text-container">
 	
@@ -7,7 +7,7 @@ layout: default
 	
 	<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
 	<div class="post-content">
-		
+		<h3>{{ post.title }}</h3>
 		{{ content }}
 		<div class="author">
 			{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}
