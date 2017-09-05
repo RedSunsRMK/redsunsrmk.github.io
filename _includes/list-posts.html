@@ -5,7 +5,7 @@
 		<div class="post-content">
 			{{ post.excerpt }}
 			<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-			<div class="button"><a href="{% include relative-src.html src=post.url %}">Read More</a></div>
+			<div class="button" style="float:right;"><a href="{% include relative-src.html src=post.url %}">READ MORE</a></div>
 		</div>
 	</li>
 {% endfor %}
