@@ -33,6 +33,7 @@
 				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Edit footer</a></p>
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
+					<strong>COMMUNITIES</strong>
 					<ul class="footer-links">
 						{% for link in column.links %}
 							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
